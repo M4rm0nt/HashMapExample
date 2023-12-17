@@ -13,7 +13,7 @@ public class ArtikelVerwaltungApp {
     public ArtikelVerwaltungApp() {
         frame = new JFrame("Artikel Verwaltung");
         panel = new JPanel();
-        panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS)); // Verbessertes Layout
+        panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS)); 
 
         addArtikelUI(new Artikel("Artikel 1", 10.0));
         addArtikelUI(new Artikel("Artikel 2", 20.0));
@@ -21,11 +21,11 @@ public class ArtikelVerwaltungApp {
         gesamtpreisLabel = new JLabel("Gesamtpreis: 0.0 €");
         panel.add(gesamtpreisLabel);
 
-        frame.add(new JScrollPane(panel)); // Ermöglicht das Scrollen bei vielen Artikeln
+        frame.add(new JScrollPane(panel)); 
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setPreferredSize(new Dimension(400, 300)); // Setzt eine bevorzugte Größe
+        frame.setPreferredSize(new Dimension(400, 300)); 
         frame.pack();
-        frame.setLocationRelativeTo(null); // Zentriert das Fenster
+        frame.setLocationRelativeTo(null); 
         frame.setVisible(true);
     }
 
