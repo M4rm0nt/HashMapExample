@@ -1,5 +1,5 @@
 
-Um sich bildlich vorzustellen, wie die HashMap in Ihrem Fall funktioniert, stellen Sie sich eine Zuordnungstabelle vor, in der jeder Artikel (der Schlüssel) direkt mit einer bestimmten JComboBox<Integer> (dem Wert) verbunden ist. Hier ist eine vereinfachte visuelle Darstellung:
+Um sich bildlich vorzustellen, wie die HashMap in dem Fall funktioniert, stellen Sie sich eine Zuordnungstabelle vor, in der jeder Artikel (der Schlüssel) direkt mit einer bestimmten JComboBox<Integer> (dem Wert) verbunden ist. Hier ist eine vereinfachte visuelle Darstellung:
 
 HashMap: {
 
